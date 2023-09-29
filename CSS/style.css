@@ -91,3 +91,31 @@ h1{
 div{
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    #agregarRegistro {
+        padding: 5px 10px;
+    }
+    #formulario {
+        padding: 10px;
+    }
+    #formulario input[type="text"],
+    #formulario input[type="email"],
+    #formulario input[type="submit"] {
+        padding: 8px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
