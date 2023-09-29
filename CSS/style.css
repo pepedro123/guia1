@@ -34,7 +34,9 @@ input[type="password"]{
 
 }
 
-button[type="submit"]{
+button[type="submit"],
+       [type="button"] 
+    {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -43,4 +45,43 @@ button[type="submit"]{
     cursor: pointer;
 
 
+}
+
+.card {
+    background-color: #007bff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Estilo de los íconos */
+.card i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
 }
