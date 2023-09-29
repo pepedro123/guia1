@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de Registros</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styletable.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabla de Registros</h1>
+        
+        <!-- Tabla de registros -->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Correo Electrónico</th>
+            </tr>
+            <tr>
+                <td>Pedro Molina</td>
+                <td>pealmo98@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Juanito Alimaña</td>
+                <td>jjuanito@hotmail.com</td>
+            </tr>
+        </table>
+        
+        <!-- Botón "Agregar Registro" -->
+        <input type="checkbox" id="mostrarFormulario" class="hidden">
+        <label for="mostrarFormulario" id="agregarRegistro">Agregar Registro</label>
+        <a href="dashboard.html"><button type="button">Regresar</button></a>
+        
+        <!-- Formulario de registro  -->
+        <div id="formulario" class="hidden">
+            <h2>Agregar Registro</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Guardar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

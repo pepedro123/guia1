@@ -43,6 +43,7 @@ button[type="submit"],
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    text-align: center;
 
 
 }
@@ -83,5 +84,10 @@ button[type="submit"],
 }
 
 h1{
+    text-align: center;
+}
+
+
+div{
     text-align: center;
 }
